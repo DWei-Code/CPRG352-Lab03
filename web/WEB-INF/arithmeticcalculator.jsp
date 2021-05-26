@@ -13,20 +13,21 @@
     </head>
     <body>
         <h1>Arithmetic Calculator</h1>
-        
+        <form method="POST">
         <label>First:</label>
-        <input type="number" name="first_number">
+        <input type="text" name="first_number" value=${firstNumber}>
         <br>
         <label>Second:</label>
-        <input type="number" name="second_number">
+        <input type="text" name="second_number" value=${secondNumber}>
         <br>
-        <input type="submit" value="+">
-        <input type="submit" value="-">
-        <input type="submit" value="*">
-        <input type="submit" value="%">
+        <input type="submit" value="+" name="calculate">
+        <input type="submit" value="-" name="calculate">
+        <input type="submit" value="*" name="calculate">
+        <input type="submit" value="%" name="calculate">
+        </form>
         <br>
         <br>
-        <label>Result: ---</label>
+        <label>Result: ${message}</label>
         <br>
         <a href="http://localhost:8084/Lab3_Calculators/age">Age Calculator</a>
     </body>

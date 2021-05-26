@@ -9,9 +9,16 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Age calculator</title>
+        <title>Age Calculator</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Age Calculator</h1>
+        
+        <label>Enter your age:</label>
+        <input type="number" name="age">
+        <br>
+        <input type="submit" value="Age next birthday">
+        <br>
+        <a href="http://localhost:8084/Lab3_Calculators/arithmetic">Arithmetic Calculator</a>
     </body>
 </html>

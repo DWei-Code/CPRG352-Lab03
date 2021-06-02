@@ -29,6 +29,6 @@
         <br>
         <label>Result: ${message}</label>
         <br>
-        <a href="http://localhost:8084/Lab3_Calculators/age">Age Calculator</a>
+        <a href="age">Age Calculator</a>
     </body>
 </html>

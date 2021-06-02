@@ -21,6 +21,6 @@
         <br>
         </form>
         <p>${message}</p>
-        <a href="http://localhost:8084/Lab3_Calculators/arithmetic">Arithmetic Calculator</a>
+        <a href="arithmetic">Arithmetic Calculator</a>
     </body>
 </html>
